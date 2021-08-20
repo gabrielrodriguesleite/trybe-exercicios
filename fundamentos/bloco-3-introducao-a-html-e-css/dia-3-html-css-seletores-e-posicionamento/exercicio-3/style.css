@@ -1,8 +1,4 @@
-h1 {
-    text-align: center;
-}
-
-p {
+h1, p{
     text-align: center;
 }
 
@@ -13,4 +9,8 @@ li:hover {
 li:active {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+}
+
+ul, ol {
+    list-style: none;
 }
