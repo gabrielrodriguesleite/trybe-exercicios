@@ -43,3 +43,28 @@ li em {
 .azul {
     color: blue;
 }
+
+
+.hover-negrito li:hover {
+    font-weight: bold;
+}
+
+.hover-laranja:hover{
+    color: orangered;
+}
+
+.hover-verde:hover{
+    color: chartreuse;
+}
+
+.hover-preta:hover{
+    color: black;
+}
+
+.hover-amarelo:hover{
+    color: gold;
+}
+
+.hover-trybe:hover {
+    color: darkgreen;
+}
