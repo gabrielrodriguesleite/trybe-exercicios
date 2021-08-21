@@ -1,0 +1,12 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    /* http://stackoverflow.com/questions/5080699/ddg#5080787 */
+    background-color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
