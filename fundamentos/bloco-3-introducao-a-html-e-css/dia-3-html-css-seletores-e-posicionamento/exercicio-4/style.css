@@ -9,3 +9,23 @@ div {
 div:hover {
     border: 5px black solid;
 }
+
+.cor-primaria {
+    background-color: hsl(0,100%,50%);
+}
+
+.cor-secundaria {
+    background-color: hsl(60,100%,50%);
+}
+
+.cor-complementar {
+    background-color: hsl(30, 100%, 50%);
+}
+
+.cor-escura {
+    background-color: hsl(30, 50%, 25%);
+}
+
+.cor-clara {
+    background-color: hsl(30, 100%, 75%);
+}
