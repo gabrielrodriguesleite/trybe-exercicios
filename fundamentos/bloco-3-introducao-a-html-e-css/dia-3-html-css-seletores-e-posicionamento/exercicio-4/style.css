@@ -49,3 +49,7 @@ div:hover {
 .fonte5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.maior {
+    padding: 1em;
+}
