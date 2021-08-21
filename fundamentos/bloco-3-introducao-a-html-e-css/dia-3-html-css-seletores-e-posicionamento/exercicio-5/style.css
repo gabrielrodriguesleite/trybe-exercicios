@@ -29,3 +29,17 @@ li em {
     font-weight: bold;
 }
 
+.rosa{
+    color: fuchsia;
+}
+ 
+/* .primeiras3 li:nth-of-type(-n+3){
+    https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
+    https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
+        color: blue;
+} 
+*/
+
+.azul {
+    color: blue;
+}
