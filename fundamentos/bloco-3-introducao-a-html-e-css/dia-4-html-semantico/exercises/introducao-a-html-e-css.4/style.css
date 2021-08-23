@@ -17,9 +17,22 @@ header {
 
 nav {
     background-color: greenyellow;
-    margin: 1em;
+    margin: 1em;    
     padding: 1em;
     border: 5px solid gray ;
+    display: block;
+    width: 100%;
+}
+
+nav, ul {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+nav, ul, li {
+    display: inline-block;
+    padding: .25em 1em .25em 1em;
 }
 
 main {
@@ -67,4 +80,19 @@ footer {
     margin: 1em;
     padding: 1em;
     border: 5px solid gray ;
+}
+
+.texto-centralizado {
+    text-align: center;
+    background-color: lawngreen;
+    /* display: block; */
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    margin: auto;
 }
