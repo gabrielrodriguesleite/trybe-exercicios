@@ -84,7 +84,7 @@ main::after {
 }
 
 footer {
-    background-color: royalblue;
+    background-color: rgb(20, 52, 148);
     margin: 1em;
     padding: 1em;
     border: 5px solid gray ;
