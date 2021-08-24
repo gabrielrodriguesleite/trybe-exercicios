@@ -15,6 +15,11 @@ header {
     border: 5px solid gray ;
 }
 
+header h1 {
+    margin: auto;
+    text-align: center;
+}
+
 nav {
     background-color: greenyellow;
     margin: 1em;    
@@ -54,7 +59,7 @@ article {
 
 section {
     /* Conteúdo a parte */
-    background-color: saddlebrown;
+    background-color: rgb(196, 127, 78);
     margin: 1em;
     padding: 1em;
     border: 5px solid gray ;
@@ -93,6 +98,41 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: lawngreen;
+}
+
+a img:hover {
+    width: 31%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 200ms;
+}
+
 table {
     margin: auto;
+}
+
+article, body, main {
+    background-image: url("https://i.natgeofe.com/n/f46158fc-9bf2-4453-8a15-6b11b323c08e/Peacock-mantis.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+}
+
+.conteudo img{
+    float: right;
+    width: 30%;
+    border-radius: 5%;
+    border: black solid 2px;
+    box-shadow: indigo 2px 2px 4px;
+}
+
+.conteudo h3 {
+    
+}
+
+.conteudo::after {
+    content: "";
+    display: table;
+    clear: both;
 }
