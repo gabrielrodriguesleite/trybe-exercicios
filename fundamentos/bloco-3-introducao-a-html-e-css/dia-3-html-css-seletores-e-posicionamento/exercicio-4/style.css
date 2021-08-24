@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: inline-block;
+}
+
+div:hover {
+    border: 5px black;
+    border-style: ridge;
+}
+
+.cor-primaria {
+    background-color: hsl(0,100%,50%);
+}
+
+.cor-secundaria {
+    background-color: hsl(60,100%,50%);
+}
+
+.cor-complementar {
+    background-color: hsl(30, 100%, 50%);
+}
+
+.cor-escura {
+    background-color: hsl(30, 50%, 25%);
+}
+
+.cor-clara {
+    background-color: hsl(30, 100%, 75%);
+}
+
+.fonte1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fonte2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fonte3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fonte4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fonte5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maior {
+    padding: 1em;
+}
+
+.italico {
+    font-style: italic;
+}

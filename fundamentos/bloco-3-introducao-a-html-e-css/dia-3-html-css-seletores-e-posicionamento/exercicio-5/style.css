@@ -1,0 +1,70 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    /* http://stackoverflow.com/questions/5080699/ddg#5080787 */
+    background-color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+
+h1, h2 {
+    color: red;
+}
+
+h1, h2 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.rosa{
+    color: fuchsia;
+}
+ 
+/* .primeiras3 li:nth-of-type(-n+3){
+    https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
+    https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
+        color: blue;
+} 
+*/
+
+.azul {
+    color: blue;
+}
+
+
+.hover-negrito li:hover {
+    font-weight: bold;
+}
+
+.hover-laranja:hover{
+    color: orangered;
+}
+
+.hover-verde:hover{
+    color: chartreuse;
+}
+
+.hover-preta:hover{
+    color: black;
+}
+
+.hover-amarelo:hover{
+    color: gold;
+}
+
+.hover-trybe:hover {
+    color: darkgreen;
+}
