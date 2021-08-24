@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+    background-color: aquamarine;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+nav {
+    background-color: greenyellow;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+main {
+    background-color: antiquewhite;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+article {
+    background-color: hotpink;
+    margin: 0;  /*obrigatorio pra funcionar a divisao da tela*/
+    padding: 1em;
+    border: 5px solid gray ;
+    float: left;    /*obrigatorio pra funcionar a divisao da tela*/
+    width: 70%;
+    
+}
+
+section {
+    /* Conteúdo a parte */
+    background-color: saddlebrown;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+aside {
+    background-color: lightcoral;
+    margin: 0;  /*obrigatorio pra funcionar a divisao da tela*/
+    padding: 1em;
+    border: 5px solid gray ;
+    float: right;   /*obrigatorio pra funcionar a divisao da tela*/
+    width: 30%;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: royalblue;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
