@@ -86,6 +86,17 @@ footer {
     border: 5px solid gray ;
 }
 
+footer p {
+    float: right;
+    font-style: italic;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .texto-centralizado {
     text-align: center;
     background-color: lawngreen;
@@ -95,6 +106,7 @@ footer {
 
 a {
     text-decoration: none;
+    border-radius: 0;
 }
 
 a:hover {
