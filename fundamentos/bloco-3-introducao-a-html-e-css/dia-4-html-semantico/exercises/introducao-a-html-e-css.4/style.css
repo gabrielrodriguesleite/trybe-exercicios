@@ -56,6 +56,10 @@ article {
     
 }
 
+article h3 {
+    margin-bottom: 1em;
+}
+
 section {
     /* Conteúdo a parte */
     background-color: rgb(196, 127, 78);
@@ -89,6 +93,11 @@ footer {
 footer p {
     float: right;
     font-style: italic;
+    color: blanchedalmond;
+}
+
+footer a {
+    color: blanchedalmond;
 }
 
 footer::after {
@@ -107,6 +116,7 @@ footer::after {
 a {
     text-decoration: none;
     border-radius: 0;
+    color: black
 }
 
 a:hover {
@@ -130,6 +140,11 @@ article, body, main {
     background-blend-mode: soft-light;
 }
 
+.conteudo div {
+    width: 65%;
+    padding-bottom: 2em;
+}
+
 .conteudo img{
     float: right;
     width: 30%;
@@ -147,6 +162,7 @@ article, body, main {
 .aviso {
     background-color: black;
     color: red;
+    border-radius: 0;
 }
 
 aside iframe {
