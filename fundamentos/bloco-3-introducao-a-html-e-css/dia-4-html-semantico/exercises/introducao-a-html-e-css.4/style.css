@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+header {
+    background-color: aquamarine;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    background-color: greenyellow;
+    margin: 1em;    
+    padding: 1em;
+    border: 5px solid gray ;
+    display: block;
+    width: 100%;
+    font-weight: bolder;
+    text-shadow: blanchedalmond 2px 2px 2px;
+}
+
+nav, ul {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+nav, ul, li {
+    display: inline-block;
+    padding: .25em 1em .25em 1em;
+}
+
+main {
+    background-color: antiquewhite;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+article {
+    background-color: hotpink;
+    margin: 0;  /*obrigatorio pra funcionar a divisao da tela*/
+    padding: 1em;
+    border: 5px solid gray ;
+    float: left;    /*obrigatorio pra funcionar a divisao da tela*/
+    width: 70%;
+    
+}
+
+article h3 {
+    margin-bottom: 1em;
+}
+
+section {
+    /* Conteúdo a parte */
+    background-color: rgb(196, 127, 78);
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+aside {
+    background-color: lightcoral;
+    margin: 0;  /*obrigatorio pra funcionar a divisao da tela*/
+    padding: 1em;
+    border: 5px solid gray ;
+    float: right;   /*obrigatorio pra funcionar a divisao da tela*/
+    width: 30%;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: rgb(20, 52, 148);
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+footer p {
+    float: right;
+    font-style: italic;
+    color: blanchedalmond;
+}
+
+footer a {
+    color: blanchedalmond;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.texto-centralizado {
+    text-align: center;
+    background-color: lawngreen;
+    /* display: block; */
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 0;
+    color: black
+}
+
+a:hover {
+    background-color: lawngreen;
+}
+
+a img:hover {
+    width: 31%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 200ms;
+}
+
+table {
+    margin: auto;
+}
+
+article, body, main {
+    background-image: url("https://i.natgeofe.com/n/f46158fc-9bf2-4453-8a15-6b11b323c08e/Peacock-mantis.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+}
+
+.conteudo div {
+    width: 65%;
+    padding-bottom: 2em;
+}
+
+.conteudo img{
+    float: right;
+    width: 30%;
+    border-radius: 1em;
+    border: black solid 2px;
+    box-shadow: indigo 2px 2px 4px;
+}
+
+.conteudo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aviso {
+    background-color: black;
+    color: red;
+    border-radius: 0;
+}
+
+aside iframe {
+    display: block;
+    width: 100%;
+    border-radius: 1em;
+}
+
+aside h3 {
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    padding: 0.1em 0.5em;
+}
+
+.titulo-video {
+    margin-bottom: 1em;
+}
+
+aside a {
+    font-size: 0.8em;
+}
