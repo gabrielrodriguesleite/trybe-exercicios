@@ -136,3 +136,8 @@ article, body, main {
     display: table;
     clear: both;
 }
+
+.aviso {
+    background-color: black;
+    color: red;
+}
