@@ -64,9 +64,7 @@ function maisRepetido(a) {
   return valor;                           //retorna o vencedor
 }
 
-
 // Exercício - 6 some de 1 até o interio i
-
 function somatorio(i) {
   let s = 0;
   for (let j = i; j > 0; j -=1) s += j;
