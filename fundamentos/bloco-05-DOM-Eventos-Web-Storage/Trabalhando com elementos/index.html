@@ -72,6 +72,20 @@
     // 4.A partir desse filho criado, acesse terceiroFilho.
     console.log("II.4 - ",FFF.parentElement.parentElement.parentElement.children[2]);
 
+    //      PARTE III do exercício de hoje
+
+    // Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho
+    // console.log(document.getElementById('paiDoPai').children);
+    pdp = document.getElementById('paiDoPai');
+    // console.log('III',pdp.children);
+    for (let i of pdp.children) {
+        if ( i.id.includes('pai') || i.id.includes('elementoOndeVoceEsta') || i.id.includes('primeiroFilhoDoFilho')) {
+            
+        } else {
+            pdp.removeChild(i);
+        }
+    }
+    console.log('III',pdp.children);
     </script>
 </body>
 </html>
