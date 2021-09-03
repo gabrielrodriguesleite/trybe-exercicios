@@ -1,0 +1,77 @@
+
+
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte I</title>
+
+    </style>
+</head>
+<body>
+    <main id="paiDoPai">
+        <section id="pai">
+          <section id="primeiroFilho"></section>
+          <section id="elementoOndeVoceEsta">
+            <section id="primeiroFilhoDoFilho"></section>
+            <section id="segundoEUltimoFilhoDoFilho"></section>
+          </section>
+          Atenção!
+          <section id="terceiroFilho"></section>
+          <section id="quartoEUltimoFilho"></section>
+        </section>
+      </main>
+    
+    <script>
+
+    //      PARTE I do exercício de hoje
+
+    // 1.Acesse o elemento elementoOndeVoceEsta .
+    console.log(1, document.getElementById("elementoOndeVoceEsta"));
+    
+    // 2.Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    document.getElementById("elementoOndeVoceEsta").parentElement.style.backgroundColor = 'lightgreen' // **O .parentNode SÓ SERVE PRA LEITURA**
+    
+    // 3.Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+    document.getElementById("primeiroFilhoDoFilho").innerHTML = "<p>Um texto adicionado a ele.</p>"
+    
+    // 4.Acesse o primeiroFilho a partir de pai .
+    console.log(4, document.getElementById("pai").firstElementChild);
+    
+    // 5.Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+    console.log(5, document.getElementById("elementoOndeVoceEsta").previousElementSibling);
+    
+    // 6.Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+    txt = document.getElementById("elementoOndeVoceEsta").parentElement.innerText.split("\n");
+    console.log(6, txt[txt.length-1]);
+    
+    // 7.Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+    console.log(7, document.getElementById("elementoOndeVoceEsta").nextSibling.nextSibling);
+
+    // 8.Agora acesse o terceiroFilho a partir de pai .
+    console.log(8, document.getElementById("pai").children[2])
+
+    //      PARTE II do exercício de hoje
+   
+    // 1.Crie um irmão para elementoOndeVoceEsta.
+    irmao = document.createElement('p');
+    irmao.innerText = "II.1 - Eu sou irmão do elementoOndeVoceEsta"
+    document.getElementById('elementoOndeVoceEsta').parentElement.appendChild(irmao);
+    
+    // 2.Crie um filho para elementoOndeVoceEsta.
+    filho = document.createElement('p');
+    filho.innerText = "II.2 - Eu sou filho do elementoOndeVoceEsta";
+    document.getElementById('elementoOndeVoceEsta').appendChild(filho);
+    
+    // 3.Crie um filho para primeiroFilhoDoFilho.
+    FFF = document.createElement('p');
+    FFF.innerText = "II.3 - Eu sou Filho do primeiroFilhoDoFilho";
+    document.getElementById('primeiroFilhoDoFilho').appendChild(FFF);
+    
+    // 4.A partir desse filho criado, acesse terceiroFilho.
+    console.log("II.4 - ",FFF.parentElement.parentElement.parentElement.children[2]);
+
+    </script>
+</body>
+</html>
