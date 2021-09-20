@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.header-container {
+    background-color: #5c687c;
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    
+    /* REQUISITO 01 */
+    flex-basis: 286px;
+}
+
+.menu-container {
+    display: flex;
+    flex-basis: 500px;
+    
+    /* REQUISITO 03 */
+    flex-grow: 1;
+}
+
+.menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    /* REQUISITO 04 */
+    align-self: center;
+}
+
+.menu-container li{
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+}
+
+/* REQUISITO 02 */
+.header-container :nth-child(2) {
+    order: -1;
+}
+
+/* Linha no final só pra acostumar com o linter */
