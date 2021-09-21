@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="/cv.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./cv.png">
     <title>Currículo</title>
 </head>
 <body>
@@ -56,6 +56,35 @@
         <button type="button" id="botao-enviar">Enviar</button>
         <button type="button" id="botao-limpar">Limpar</button>
     </fieldset>
-    <script src="/script.js"></script>
+
+    <!-- REQUISITO 03 -->
+    <div id="container-resultado" class="oculto">
+        <div id="resultado-dados-pessoais">
+            <h1>Dados Pessoais:</h1>
+            <h2 id="nome"></h2>
+            <h2 id="email"></h2>
+            <h2 id="cpf"></h2>
+            <h2 id="endereco"></h2>
+            <h2 id="estado"></h2>
+            <h2 id="residencia"></h2>
+            <h1>Dados do Último Emprego:</h1>
+            <h2 id="resumo"></h2>
+            <h2 id="cargo"></h2>
+            <h2 id="descricao"></h2>
+            <h2 id="inicio"></h2>
+        </div>
+    </div>
+
+    <div id="blackout-modal" class="oculto"></div>
+    
+    <div id="container-erro" class="oculto">
+        <div id="div-erro">
+            <h2 id="titulo-erro">Título do Erro</h2>
+            <p id="texto-erro">Um texto de erro!</p>
+            <button type="button" id="botao-erro">OK</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
