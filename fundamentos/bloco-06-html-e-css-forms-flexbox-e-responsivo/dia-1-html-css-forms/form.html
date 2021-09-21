@@ -28,7 +28,7 @@
         <input type="text" id="input-cidade" maxlength="28" required>
         <br>
         <label for="input-estado">Estado:</label>
-        <select name="cidade" id="input-estado" required></select>
+        <select name="estado" id="input-estado" required></select>
         <br>
         <fieldset>
             <legend>Tipo de Residência</legend>
@@ -61,17 +61,19 @@
     <div id="container-resultado" class="oculto">
         <div id="resultado-dados-pessoais">
             <h1>Dados Pessoais:</h1>
-            <h2 id="nome"></h2>
-            <h2 id="email"></h2>
-            <h2 id="cpf"></h2>
-            <h2 id="endereco"></h2>
-            <h2 id="estado"></h2>
-            <h2 id="residencia"></h2>
+            <h2>Nome: </h2><span id="nome"></span><br>
+            <h2>Email: </h2><span id="email"></span><br>
+            <h2>CPF: </h2><span id="cpf"></span><br>
+            <h2>Endereço: </h2><span id="endereco"></span><br>
+            <h2>Cidade: </h2><span id="cidade"></span><br>
+            <h2>Estado: </h2><span id="estado"></span><br>
+            <h2>Residência: </h2><span id="residencia"></span><br>
             <h1>Dados do Último Emprego:</h1>
-            <h2 id="resumo"></h2>
-            <h2 id="cargo"></h2>
-            <h2 id="descricao"></h2>
-            <h2 id="inicio"></h2>
+            <h2>Resumo:</h2><p id="resumo"></p><br>
+            <h2>Cargo: </h2><span id="cargo"></span><br>
+            <h2>Descrição:</h2><p id="descricao"></p><br>
+            <h2>Início: </h2><span id="inicio"></span><br>
+            <button type="button" id="botao-resultado">OK</button>
         </div>
     </div>
 

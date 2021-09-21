@@ -56,3 +56,7 @@
     display: none;
     visibility: hidden;
 }
+
+#resultado-dados-pessoais h2 {
+    display: inline;
+}
