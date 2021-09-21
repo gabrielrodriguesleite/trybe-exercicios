@@ -30,6 +30,7 @@ figure {
     body {
         background-color: red;
         font-size: 16px;
+        margin: 2em;
     }
 
     main {
