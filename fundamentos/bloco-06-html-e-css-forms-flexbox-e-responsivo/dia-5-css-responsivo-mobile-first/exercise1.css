@@ -30,4 +30,18 @@ figure {
     body {
         background-color: red;
     }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        flex-basis: 50%;
+    }
+
+    main h2 {
+        width: 100%;
+        text-align: center;
+    }
 }
