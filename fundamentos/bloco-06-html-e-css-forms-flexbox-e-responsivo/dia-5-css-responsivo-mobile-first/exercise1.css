@@ -57,6 +57,12 @@ figure {
     h2 {
         font-size: 1.5em;
     }
+    
+    p {
+        max-width: 800px;
+        text-align: justify;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1300px) {
