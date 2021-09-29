@@ -8,6 +8,10 @@ test('sums two values', () => {
   expect(sum(0,0)).toBe(0);
 });
 
-test('sums throw a error if a char parameter', () => {
+test('sums throw an error if a char parameter', () => {
+  expect(_ => sum(4,"5")).toThrow();
+});
+
+test('sums throw an \'parameters must be numbers\' error if a char parameter', () => {
   expect(_ => sum(4,"5")).toThrowError(new Error('parameters must be numbers'));
 });
