@@ -12,8 +12,9 @@ const arrays = [
 // SEM O .concat()
 function flatten() {
   return arrays.reduce((a,c,i)=>{
-    c.forEach((v)=>a.push(v));
-    return a;
+    // as próximas 2 linhas são inportantes
+    c.forEach((v)=>a.push(v));  // aqui é ~~criada~~ a array
+    return a;                   // aqui o acumulador é atualizado
   },[]);
 };
 
