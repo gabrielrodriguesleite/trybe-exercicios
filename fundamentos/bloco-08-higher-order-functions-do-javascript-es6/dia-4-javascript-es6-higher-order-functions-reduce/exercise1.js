@@ -15,7 +15,7 @@ function flatten() {
     // as próximas 2 linhas são inportantes
     c.forEach((v)=>a.push(v));  // aqui é ~~criada~~ a array
     return a;                   // aqui o acumulador é atualizado
-  },[]);
+  },[]);                        // note que acumulador é iniciado com uma array vazia
 };
 
 console.log(flatten());
