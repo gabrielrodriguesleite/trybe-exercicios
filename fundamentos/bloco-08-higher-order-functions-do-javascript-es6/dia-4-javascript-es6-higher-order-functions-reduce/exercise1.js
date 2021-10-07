@@ -18,4 +18,4 @@ function flatten() {
   },[]);                        // note que acumulador é iniciado com uma array vazia
 };
 
-console.log(flatten());
+console.log(flatten()); // [ '1', '2', '3', true, 4, 5, 6 ]
