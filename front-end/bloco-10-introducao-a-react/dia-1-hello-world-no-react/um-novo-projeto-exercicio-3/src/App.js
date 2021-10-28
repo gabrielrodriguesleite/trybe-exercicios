@@ -6,7 +6,7 @@ import Content from './Content';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header className="cabeca"/>
       <Content></Content>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
