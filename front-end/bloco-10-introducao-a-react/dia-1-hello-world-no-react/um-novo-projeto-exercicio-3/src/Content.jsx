@@ -26,12 +26,12 @@ const conteudos = [
 class Content extends React.Component {
   render() {
     return (
-      <>
-        {conteudos.map((i) => <>
+      <section className={this.props.className}>
+        {conteudos.map((i) => <div>
           <p>O Conteúdo é: {i.conteudo}</p>
           <p>Status: {i.status}</p>
-          <p>Bloco: {i.bloco}</p></>)}
-      </>
+          <p>Bloco: {i.bloco}</p></div>)}
+      </section>
     );
   }
 }
