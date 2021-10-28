@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header className="cabeca"/>
       <Content/>
-      <Footer />
+      <Footer className="pe"/>
 {/*       
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
