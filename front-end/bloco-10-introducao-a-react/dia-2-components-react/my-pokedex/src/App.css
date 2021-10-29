@@ -1,0 +1,31 @@
+.pokedex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: brown;
+  justify-content: center;
+}
+
+.card { 
+  display: flex;
+  flex-direction: column;
+  background-color: #61dafb;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  margin: 1em;
+}
+
+.card * {
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.card a {
+  background-color: blue;
+  color: aliceblue;
+  width: fit-content;
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-bottom: 0.25rem;
+}
