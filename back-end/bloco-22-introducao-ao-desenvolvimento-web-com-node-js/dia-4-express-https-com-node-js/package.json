@@ -1,0 +1,12 @@
+{
+  "name": "dia-4-express-https-com-node",
+  "version": "1.0.0",
+  "description": "Inicie os exercícios criando uma aplicação Node.js com os comandos já aprendidos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
